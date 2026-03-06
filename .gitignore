@@ -1,0 +1,50 @@
+# ── Go ──
+server/bin/
+server/tmp/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# ── React Native ──
+mobile/node_modules/
+mobile/ios/Pods/
+mobile/ios/build/
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/android/build/
+mobile/.expo/
+*.jsbundle
+
+# ── Environment & secrets ──
+.env
+.env.*
+!.env.example
+
+# ── IDE ──
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── OS ──
+desktop.ini
+
+# ── Build artifacts ──
+dist/
+build/
+coverage/
+
+# ── Terraform / IaC ──
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.backup
+infra/*.tfvars
+!infra/*.tfvars.example
+
+# ── Logs ──
+*.log
